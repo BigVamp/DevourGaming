@@ -9,7 +9,6 @@ import devourgaming.object.material.MaterialBase;
 public class MaterialInit {
     public static final List<Item> MATERIALS = new ArrayList<Item>();
     //Vanilla
-    public static final Item IRON_NUGGET = new MaterialBase("iron_nugget");
     public static final Item IRON_DUST = new MaterialBase("iron_dust");
     public static final Item GOLD_DUST = new MaterialBase("gold_dust");
     public static final Item COAL_DUST = new MaterialBase("coal_dust");
