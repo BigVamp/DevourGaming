@@ -1,7 +1,7 @@
 package devourgaming.object.tool;
 
 import devourgaming.Main;
-import devourgaming.init.MaterialInit;
+import devourgaming.init.ToolInit;
 import devourgaming.util.Interface.IModel;
 import net.minecraft.item.ItemPickaxe;
 
@@ -11,7 +11,7 @@ public class ToolPick extends ItemPickaxe implements IModel {
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(Main.ToolTab);
-		MaterialInit.ITEMS.add(this);
+		ToolInit.TOOLS.add(this);
 	}
 	
 	@Override

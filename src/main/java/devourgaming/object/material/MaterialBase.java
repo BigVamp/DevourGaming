@@ -10,7 +10,7 @@ public class MaterialBase extends Item implements IModel {
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(Main.MaterialTab);
-        MaterialInit.ITEMS.add(this);
+        MaterialInit.MATERIALS.add(this);
     }
 
     @Override

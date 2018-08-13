@@ -4,7 +4,9 @@ import devourgaming.command.CDT;
 import devourgaming.init.BiomeInit;
 import devourgaming.init.BlockInit;
 import devourgaming.init.DimensionInit;
+import devourgaming.init.EquipmentInit;
 import devourgaming.init.MaterialInit;
+import devourgaming.init.ToolInit;
 import devourgaming.util.Interface.IModel;
 import devourgaming.world.gen.OreGen;
 import net.minecraft.block.Block;
@@ -19,26 +21,46 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 @Mod.EventBusSubscriber
 public class RegistryHandler {
 
-    @SubscribeEvent
-    public static void onItemRegister(RegistryEvent.Register<Item> event) {
-        event.getRegistry().registerAll(MaterialInit.ITEMS.toArray(new Item[0]));
-    }
-
-    @SubscribeEvent
+	@SubscribeEvent
     public static void onBlockRegister(RegistryEvent.Register<Block> event) {
         event.getRegistry().registerAll(BlockInit.BLOCKS.toArray(new Block[0]));
+    }
+	
+	@SubscribeEvent
+    public static void onEquipmentRegister(RegistryEvent.Register<Item> event) {
+		event.getRegistry().registerAll(EquipmentInit.EQUIPS.toArray(new Item[0]));
+    }
+	
+    @SubscribeEvent
+    public static void onMaterialRegister(RegistryEvent.Register<Item> event) {
+        event.getRegistry().registerAll(MaterialInit.MATERIALS.toArray(new Item[0]));
+    }
+    
+    @SubscribeEvent
+    public static void onToolRegister(RegistryEvent.Register<Item> event) {
+        event.getRegistry().registerAll(ToolInit.TOOLS.toArray(new Item[0]));
     }
 
     @SubscribeEvent
     public static void onModelRegister(ModelRegistryEvent event) {
-        for(Item item : MaterialInit.ITEMS) {
+    	for(Block block: BlockInit.BLOCKS) {
+            if(block instanceof IModel) {
+                ((IModel)block).registerModels();
+            }
+        }
+        for(Item item : EquipmentInit.EQUIPS) {
             if(item instanceof IModel) {
                 ((IModel)item).registerModels();
             }
         }
-        for(Block block: BlockInit.BLOCKS) {
-            if(block instanceof IModel) {
-                ((IModel)block).registerModels();
+        for(Item item : MaterialInit.MATERIALS) {
+            if(item instanceof IModel) {
+                ((IModel)item).registerModels();
+            }
+        }
+        for(Item item : ToolInit.TOOLS) {
+            if(item instanceof IModel) {
+                ((IModel)item).registerModels();
             }
         }
     }

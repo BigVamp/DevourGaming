@@ -1,5 +1,8 @@
 package devourgaming;
 
+import devourgaming.object.tab.BlockTab;
+import devourgaming.object.tab.EquipmentTab;
+import devourgaming.object.tab.MaterialTab;
 import devourgaming.object.tab.ToolTab;
 import devourgaming.proxy.CommonProxy;
 import devourgaming.util.Reference;
@@ -23,9 +26,9 @@ public class Main {
     @Mod.Instance(Reference.MOD_ID)
     public static Main instance;
 
-    public static final CreativeTabs BlockTab = new ToolTab("Blocktab");
-    public static final CreativeTabs EquipmentTab = new ToolTab("equipmenttab");
-    public static final CreativeTabs MaterialTab = new ToolTab("materialtab");
+    public static final CreativeTabs BlockTab = new BlockTab("Blocktab");
+    public static final CreativeTabs EquipmentTab = new EquipmentTab("equipmenttab");
+    public static final CreativeTabs MaterialTab = new MaterialTab("materialtab");
     public static final CreativeTabs ToolTab = new ToolTab("tooltab");
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)

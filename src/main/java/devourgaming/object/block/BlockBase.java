@@ -16,7 +16,7 @@ public class BlockBase extends Block implements IModel {
         setRegistryName(name);
         setCreativeTab(Main.BlockTab);
         BlockInit.BLOCKS.add(this);
-        MaterialInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        MaterialInit.MATERIALS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
 
     @Override

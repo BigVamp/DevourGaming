@@ -12,7 +12,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 
 public class EquipmentInit {
-	public static final List<Item> ITEMS = new ArrayList<Item>();
+	public static final List<Item> EQUIPS = new ArrayList<Item>();
 	//Material
 	public static final ArmorMaterial ARMOR_MATERIAL_ADAMANTINE = EnumHelper.addArmorMaterial("armor_material_adamantine", Reference.MOD_ID + ":adamantine", 10, new int[] {1, 1, 1, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	public static final ArmorMaterial ARMOR_MATERIAL_ALDUORITE = EnumHelper.addArmorMaterial("armor_material_alduorite", Reference.MOD_ID + ":alduorite", 10, new int[] {1, 1, 1, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);

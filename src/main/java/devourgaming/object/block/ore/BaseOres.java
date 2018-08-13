@@ -34,7 +34,7 @@ public class BaseOres extends Block implements IModel, IMeta {
 		setDefaultState(this.blockState.getBaseState().withProperty(VARIANT, BaseEnumType.ALUMINUM));
 		this.name = name;
 		BlockInit.BLOCKS.add(this);
-		MaterialInit.ITEMS.add(new ItemBlockVariants(this).setRegistryName(this.getRegistryName()));
+		MaterialInit.MATERIALS.add(new ItemBlockVariants(this).setRegistryName(this.getRegistryName()));
 	}
 	
 	@Override

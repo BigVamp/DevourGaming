@@ -12,7 +12,7 @@ import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ToolInit {
-	public static final List<Item> ITEMS = new ArrayList<Item>();
+	public static final List<Item> TOOLS = new ArrayList<Item>();
 	//Material (Name, Harvest Level, Durability, Effiency, Damage, Enchantibility)
 	public static final ToolMaterial TOOL_MATERIAL_ADAMANTINE = EnumHelper.addToolMaterial("tool_material_adamantine", 1, 100, 1.0F, 1.0F, 1);
 	public static final ToolMaterial TOOL_MATERIAL_ALDUORITE = EnumHelper.addToolMaterial("tool_material_alduorite", 1, 100, 1.0F, 1.0F, 1);

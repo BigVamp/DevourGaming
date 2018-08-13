@@ -37,7 +37,7 @@ public class UtilityOres extends Block implements IModel, IMeta {
 		this.name = name;
 		this.dimension = 0;
 		BlockInit.BLOCKS.add(this);
-		MaterialInit.ITEMS.add(new ItemBlockVariants(this).setRegistryName(this.getRegistryName()));
+		MaterialInit.MATERIALS.add(new ItemBlockVariants(this).setRegistryName(this.getRegistryName()));
 	}
 	
 	@Override
