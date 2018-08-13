@@ -1,0 +1,10 @@
+{
+	"parent": "block/grass",
+	"textures": {
+		"particle": "blocks/dirt",
+        "bottom": "devour:blocks/dimensions/crimson_grass_side",
+        "top": "devour:blocks/dimensions/crimson_grass_top",
+        "side": "devour:blocks/dimensions/crimson_grass_side",
+        "overlay": "devour:blocks/dimensions/crimson_grass_side"
+	}
+}
