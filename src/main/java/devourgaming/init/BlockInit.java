@@ -1,6 +1,11 @@
 package devourgaming.init;
 
 import devourgaming.object.block.BlockBase;
+import devourgaming.object.block.ore.BaseOres;
+import devourgaming.object.block.ore.EndOres;
+import devourgaming.object.block.ore.FantasyOres;
+import devourgaming.object.block.ore.NetherOres;
+import devourgaming.object.block.ore.UtilityOres;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import java.util.ArrayList;
@@ -8,6 +13,12 @@ import java.util.List;
 
 public class BlockInit {
     public static final List<Block> BLOCKS = new ArrayList<Block>();
+    //Ores
+    public static final Block BASE_ORE = new BaseOres("base.ore", Material.ROCK);
+	public static final Block FANTASY_ORE = new FantasyOres("fantasy.ore", Material.ROCK);
+	public static final Block UTILITY_ORE = new UtilityOres("utility.ore", Material.ROCK);
+	public static final Block NETHER_ORE = new NetherOres("nether.ore", Material.ROCK);
+	public static final Block END_ORE = new EndOres("end.ore", Material.ROCK);
     //Crimson
     public static final Block CRIMSON_GRASS = new BlockBase("crimson_grass", Material.GRASS);
     public static final Block CRIMSON_DIRT = new BlockBase("crimson_dirt", Material.GROUND);
