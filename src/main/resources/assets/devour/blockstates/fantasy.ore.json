@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"variant=adamantine": { "model": "devour:adamantine_ore"},
+		"variant=astral_silver": { "model": "devour:astral_silver_ore"},
+		"variant=atlarus": { "model": "devour:atlarus_ore"},
+		"variant=carmot": { "model": "devour:carmot_ore"},
+		"variant=deep_iron": { "model": "devour:deep_iron_ore"},
+		"variant=infuscolium": { "model": "devour:infuscolium_ore"},
+		"variant=mithril": { "model": "devour:mithril_ore"},
+		"variant=orichalcum": { "model": "devour:orichalcum_ore"},
+		"variant=oureclase": { "model": "devour:oureclase_ore"},
+		"variant=platinum": { "model": "devour:platinum_ore"},
+		"variant=prometheum": { "model": "devour:prometheum_ore"},
+		"variant=rubracium": { "model": "devour:rubracium_ore"},
+		"variant=silver": { "model": "devour:silver_ore"},
+		"variant=zinc": { "model": "devour:zinc_ore"}
+	}
+}
