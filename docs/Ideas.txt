@@ -21,7 +21,8 @@ Boron
 Chlorine
 Arsenic
 Silicon
-
+//Alloys
+Tungstensteel
 https://en.wikipedia.org/wiki/Periodic_table
 
 //Multiblocks
@@ -49,10 +50,13 @@ Crimson Forest - Confirmed
 Crimson Hills - Confirmed
 Crimson Plains - Confirmed
 Crimson ? - Confirmed
-
+?:
+Crimson Wastelands
+Crimson Waters (with a custom lava type liquid)
+Crimson Foregrounds (the dangerous biome surrounding a Crimson Fortress)
 //Structures
 Crimson Fortresses/Strongholds - Confirmed
 
-//Affects
+//Effects
 Radiation
 Varies of chemicals
