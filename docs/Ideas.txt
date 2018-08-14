@@ -1,0 +1,58 @@
+//
+Lithium - Confirmed
+Tungsten - Confirmed
+Chromium
+Zirconium
+Osmium
+Potassium
+Sodium
+Calcium
+Mercury
+Krypton
+Argon
+Neon
+Helium
+Xenon Radon
+Iodine
+Hydrogen
+Nitrogen
+Carbon
+Boron
+Chlorine
+Arsenic
+Silicon
+
+https://en.wikipedia.org/wiki/Periodic_table
+
+//Multiblocks
+Smeltery - Confirmed
+Press - Confirmed
+Forge
+Reactor
+Crusher
+Solar Farm
+Wind Farm/Wind Turbine
+Hyrdo Plant
+
+//Mobs - Bosses
+Eyeball - Confirmed (Needs name)
+Eye of Khatulu - Confirmed
+The Kraken - Confirmed
+
+//Dimensions
+Crimson - Confirmed
+Deep Abyss - Confirmed (Name?)
+Mysticla Forest - Confirmed (Name?)
+
+//Biomes
+Crimson Forest - Confirmed
+Crimson Hills - Confirmed
+Crimson Plains - Confirmed
+Crimson ? - Confirmed
+
+//Structures
+Crimson Fortresses/Strongholds - Confirmed
+
+//Affects
+Radiation
+Varies of chemicals
