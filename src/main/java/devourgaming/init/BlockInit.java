@@ -62,7 +62,7 @@ public class BlockInit {
     public static final Block CELENEGIL_BRICK = new BlockBase("celenegil_brick", Material.IRON);
     //Ceruclase
     public static final Block CERUCLASE_BLOCK = new BlockBase("ceruclase_block", Material.IRON);
-    public static final Block CERUCLASE_BRICK = new BlockBase("cerucalse_brick", Material.IRON);
+    public static final Block CERUCLASE_BRICK = new BlockBase("ceruclase_brick", Material.IRON);
     //Cobalt
     public static final Block COBALT_BLOCK = new BlockBase("cobalt_block", Material.IRON);
     public static final Block COBALT_BRICK = new BlockBase("cobalt_brick", Material.IRON);

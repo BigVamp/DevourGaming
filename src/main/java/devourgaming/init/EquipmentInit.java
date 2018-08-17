@@ -79,9 +79,9 @@ public class EquipmentInit {
 	public static final Item AMORDRINE_BOOTS = new EquipmentBase("amordrine_boots", ARMOR_MATERIAL_AMORDRINE, 1, EntityEquipmentSlot.FEET);
 	//Angmallen
 	public static final Item ANGMALLEN_HELMET = new EquipmentBase("angmallen_helmet", ARMOR_MATERIAL_ANGMALLEN, 1, EntityEquipmentSlot.HEAD);
-	public static final Item ANGMALLEN_CHEST = new EquipmentBase("_chest", ARMOR_MATERIAL_ANGMALLEN, 1, EntityEquipmentSlot.CHEST);
-	public static final Item ANGMALLEN_LEGS = new EquipmentBase("_legs", ARMOR_MATERIAL_ANGMALLEN, 2, EntityEquipmentSlot.LEGS);
-	public static final Item ANGMALLEN_BOOTS = new EquipmentBase("_boots", ARMOR_MATERIAL_ANGMALLEN, 1, EntityEquipmentSlot.FEET);
+	public static final Item ANGMALLEN_CHEST = new EquipmentBase("angmallen_chest", ARMOR_MATERIAL_ANGMALLEN, 1, EntityEquipmentSlot.CHEST);
+	public static final Item ANGMALLEN_LEGS = new EquipmentBase("angmallen_legs", ARMOR_MATERIAL_ANGMALLEN, 2, EntityEquipmentSlot.LEGS);
+	public static final Item ANGMALLEN_BOOTS = new EquipmentBase("angmallen_boots", ARMOR_MATERIAL_ANGMALLEN, 1, EntityEquipmentSlot.FEET);
 	//Aridite
 	public static final Item ARIDITE_HELMET = new EquipmentBase("aridite_helmet", ARMOR_MATERIAL_ARIDITE, 1, EntityEquipmentSlot.HEAD);
 	public static final Item ARIDITE_CHEST = new EquipmentBase("aridite_chest", ARMOR_MATERIAL_ARIDITE, 1, EntityEquipmentSlot.CHEST);

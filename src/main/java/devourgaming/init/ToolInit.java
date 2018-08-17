@@ -100,10 +100,10 @@ public class ToolInit {
 	public static final Item ATLARUS_HOE = new ToolHoe("atlarus_hoe", TOOL_MATERIAL_ATLARUS);
 	//Black Steel
 	public static final Item BLACK_STEEL_SWORD = new ToolSword("black_steel_sword", TOOL_MATERIAL_BLACK_STEEL);
-	public static final Item BLACK_STEEL_PICK = new ToolPick("black_steel__pick", TOOL_MATERIAL_BLACK_STEEL);
-	public static final Item BLACK_STEEL_AXE = new ToolAxe("black_steel__axe", TOOL_MATERIAL_BLACK_STEEL);
-	public static final Item BLACK_STEEL_SHOVEL = new ToolShovel("black_steel__shovel", TOOL_MATERIAL_BLACK_STEEL);
-	public static final Item BLACK_STEEL_HOE = new ToolHoe("black_steel__hoe", TOOL_MATERIAL_BLACK_STEEL);
+	public static final Item BLACK_STEEL_PICK = new ToolPick("black_steel_pick", TOOL_MATERIAL_BLACK_STEEL);
+	public static final Item BLACK_STEEL_AXE = new ToolAxe("black_steel_axe", TOOL_MATERIAL_BLACK_STEEL);
+	public static final Item BLACK_STEEL_SHOVEL = new ToolShovel("black_steel_shovel", TOOL_MATERIAL_BLACK_STEEL);
+	public static final Item BLACK_STEEL_HOE = new ToolHoe("black_steel_hoe", TOOL_MATERIAL_BLACK_STEEL);
 	//Brass
 	public static final Item BRASS_SWORD = new ToolSword("brass_sword", TOOL_MATERIAL_BRASS);
 	public static final Item BRASS_PICK = new ToolPick("brass_pick", TOOL_MATERIAL_BRASS);
@@ -196,10 +196,10 @@ public class ToolInit {
 	public static final Item IGNATIUS_HOE = new ToolHoe("ignatius_hoe", TOOL_MATERIAL_IGNATIUS);
 	//Infuscolium
 	public static final Item INFUSCOLIUM_SWORD = new ToolSword("infuscolium_sword", TOOL_MATERIAL_INFUSCOLIUM);
-	public static final Item INFUSCOLIUM_PICK = new ToolPick("infuscolium_sword_pick", TOOL_MATERIAL_INFUSCOLIUM);
-	public static final Item INFUSCOLIUM_AXE = new ToolAxe("infuscolium_sword_axe", TOOL_MATERIAL_INFUSCOLIUM);
-	public static final Item INFUSCOLIUM_SHOVEL = new ToolShovel("infuscolium_sword_shovel", TOOL_MATERIAL_INFUSCOLIUM);
-	public static final Item INFUSCOLIUM_HOE = new ToolHoe("infuscolium_sword_hoe", TOOL_MATERIAL_INFUSCOLIUM);
+	public static final Item INFUSCOLIUM_PICK = new ToolPick("infuscolium_pick", TOOL_MATERIAL_INFUSCOLIUM);
+	public static final Item INFUSCOLIUM_AXE = new ToolAxe("infuscolium_axe", TOOL_MATERIAL_INFUSCOLIUM);
+	public static final Item INFUSCOLIUM_SHOVEL = new ToolShovel("infuscolium_shovel", TOOL_MATERIAL_INFUSCOLIUM);
+	public static final Item INFUSCOLIUM_HOE = new ToolHoe("infuscolium_hoe", TOOL_MATERIAL_INFUSCOLIUM);
 	//Inolashite
 	public static final Item INOLASHITE_SWORD = new ToolSword("inolashite_sword", TOOL_MATERIAL_INOLASHITE);
 	public static final Item INOLASHITE_PICK = new ToolPick("inolashite_pick", TOOL_MATERIAL_INOLASHITE);
@@ -237,11 +237,11 @@ public class ToolInit {
 	public static final Item MIDASIUM_SHOVEL = new ToolShovel("midasium_shovel", TOOL_MATERIAL_MIDASIUM);
 	public static final Item MIDASIUM_HOE = new ToolHoe("midasium_hoe", TOOL_MATERIAL_MIDASIUM);
 	//Mithril
-	public static final Item MITHRIL_SWORD = new ToolSword("mithral_sword", TOOL_MATERIAL_MITHRIL);
-	public static final Item MITHRIL_PICK = new ToolPick("mithral_pick", TOOL_MATERIAL_MITHRIL);
-	public static final Item MITHRIL_AXE = new ToolAxe("mithral_axe", TOOL_MATERIAL_MITHRIL);
-	public static final Item MITHRIL_SHOVEL = new ToolShovel("mithral_shovel", TOOL_MATERIAL_MITHRIL);
-	public static final Item MITHRIL_HOE = new ToolHoe("mithral_hoe", TOOL_MATERIAL_MITHRIL);
+	public static final Item MITHRIL_SWORD = new ToolSword("mithril_sword", TOOL_MATERIAL_MITHRIL);
+	public static final Item MITHRIL_PICK = new ToolPick("mithril_pick", TOOL_MATERIAL_MITHRIL);
+	public static final Item MITHRIL_AXE = new ToolAxe("mithril_axe", TOOL_MATERIAL_MITHRIL);
+	public static final Item MITHRIL_SHOVEL = new ToolShovel("mithril_shovel", TOOL_MATERIAL_MITHRIL);
+	public static final Item MITHRIL_HOE = new ToolHoe("mithril_hoe", TOOL_MATERIAL_MITHRIL);
 	//Nickel
 	public static final Item NICKEL_SWORD = new ToolSword("nickel_sword", TOOL_MATERIAL_NICKEL);
 	public static final Item NICKEL_PICK = new ToolPick("nickel_pick", TOOL_MATERIAL_NICKEL);
