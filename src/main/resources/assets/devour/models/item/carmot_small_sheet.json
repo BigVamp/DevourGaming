@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-   "textures": {
-       "layer0": "devour:items/materials/carmot_small_sheet"
-   }
-}

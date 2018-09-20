@@ -1,6 +1,0 @@
-{
-	"variants": {
-		"variant=eximite": { "model": "devour:eximite_ore"},
-		"variant=meutoite": { "model": "devour:meutoite_ore"}
-	}
-}
